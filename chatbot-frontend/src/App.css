@@ -162,24 +162,25 @@ h1{
   cursor: pointer;
 }
 
-/* Simple form styles */
 .simple-form {
   display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
 .simple-form input {
+  flex: 1; /* Ocupa todo el espacio disponible a la izquierda del botón */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 .simple-form button {
-  padding: 10px;
+  padding: 10px 20px; /* Ajusta el padding del botón */
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  flex-shrink: 0; /* Evita que el botón se reduzca */
+  align-self: flex-end; /* Alinea el botón a la derecha */
 }

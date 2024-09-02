@@ -1,6 +1,7 @@
 # Ignore node_modules for backend and frontend
 CHATBOT/backend/node_modules/
 CHATBOT/chatbot-frontend/node_modules/
+CHATBOT/chatbot-frontend/node_modules/.cache
 
 # Ignore logs
 CHATBOT/backend/logs/
