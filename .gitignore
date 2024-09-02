@@ -1,20 +1,20 @@
 # Ignore node_modules for backend and frontend
-CHATBOT/backend/node_modules/
-CHATBOT/chatbot-frontend/node_modules/
-CHATBOT/chatbot-frontend/node_modules/.cache
+chatbot/backend/node_modules/
+chatbot/chatbot-frontend/node_modules/
+chatbot/chatbot-frontend/node_modules/.cache
 
 # Ignore logs
-CHATBOT/backend/logs/
-CHATBOT/chatbot-frontend/logs/
+chatbot/backend/logs/
+chatbot/chatbot-frontend/logs/
 *.log
 
 # Ignore build directories
-CHATBOT/chatbot-frontend/build/
-CHATBOT/chatbot-frontend/dist/
+chatbot/chatbot-frontend/build/
+chatbot/chatbot-frontend/dist/
 
 # Ignore .env files (sensitive information)
-CHATBOT/backend/.env
-CHATBOT/chatbot-frontend/.env
+chatbot/backend/.env
+chatbot/chatbot-frontend/.env
 
 
 # Ignore dependency directories
@@ -38,8 +38,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore miscellaneous files
-CHATBOT/chatbot-frontend/.eslintcache
-CHATBOT/chatbot-frontend/.cache/
+chatbot/chatbot-frontend/.eslintcache
+chatbot/chatbot-frontend/.cache/
 
 # Ignore service worker cache
-CHATBOT/chatbot-frontend/service-worker-cache/
+chatbot/chatbot-frontend/service-worker-cache/
