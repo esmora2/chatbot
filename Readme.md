@@ -5,9 +5,9 @@
 Copiar repositorio desde:
 
 ```
-git clone https://github.com/esmora2G3_Supermercado.git
+git clone https://github.com/esmora2/chatbot.git
 
-cd CHATBOT
+cd chatbot
 ```
 
 1. Para el Backend, la API collab tiene que estar en ejecucion exponiendo la url ngrok
@@ -31,3 +31,11 @@ npm start
 ```
 
 Acceder a: http://localhost:3000
+
+
+## Uso
+
+Chatbot ESPE se muestra como un sitio WEB informativo de la Universidad de Las Fuerzas Armadas con conexion hacia diferentes portales y sitios web relacionados con la ESPE.
+
+
+Dentro del sitio WEB se muestra un chat desplegable al que se le puede realizar preguntas referentes a la institucion
