@@ -2,6 +2,19 @@
 CHATBOT/backend/node_modules/
 CHATBOT/chatbot-frontend/node_modules/
 
+# Ignore logs
+CHATBOT/backend/logs/
+CHATBOT/chatbot-frontend/logs/
+*.log
+
+# Ignore build directories
+CHATBOT/chatbot-frontend/build/
+CHATBOT/chatbot-frontend/dist/
+
+# Ignore .env files (sensitive information)
+CHATBOT/backend/.env
+CHATBOT/chatbot-frontend/.env
+
 
 # Ignore dependency directories
 .DS_Store
@@ -27,3 +40,5 @@ yarn-error.log*
 CHATBOT/chatbot-frontend/.eslintcache
 CHATBOT/chatbot-frontend/.cache/
 
+# Ignore service worker cache
+CHATBOT/chatbot-frontend/service-worker-cache/
