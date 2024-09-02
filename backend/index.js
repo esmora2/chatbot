@@ -13,7 +13,7 @@ app.post('/api/ask', async (req, res) => {
     const { question } = req.body;
     console.log('Pregunta recibida:', question); // Verifica la pregunta recibida
     try {
-      const response = await axios.post('https://6108-34-125-114-25.ngrok-free.app/ask', { question });
+      const response = await axios.post('https://4dc2-34-125-246-164.ngrok-free.app/ask', { question });
       console.log('Respuesta de la API:', response.data); // Verifica la respuesta de la API
       res.json(response.data);
     } catch (error) {
