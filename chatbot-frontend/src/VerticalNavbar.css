@@ -1,0 +1,55 @@
+.vertical-navbar {
+    width: 700px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+  }
+  
+  .navbar-title {
+    font-size: 20px; /* Ajusta el tamaño de la fuente del título */
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .vertical-navbar h3 {
+    margin-top: 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar-links a {
+    display: flex; /* Asegura que el icono y el texto estén alineados en una fila */
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #92e4929f;
+  }
+  
+  .navbar-links .icon {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    font-size: 30px; /* Ajusta el tamaño del icono */
+  }
+  
+  .navbar-links .link-text {
+    font-size: 30px; /* Ajusta el tamaño del texto del enlace */
+  }
+  
+  .navbar-links hr {
+    margin: 5px 0;
+    border: 0;
+    border-top: 1px solid #cccccc;
+  }
+  

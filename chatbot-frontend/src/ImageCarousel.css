@@ -1,0 +1,28 @@
+.carousel-container img {
+    height: 500px; 
+    width: 100px; 
+    object-fit: cover; 
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5); /* Color con opacidad */
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo con opacidad */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .carousel-arrow-prev {
+    left: 10px;
+  }
+  
+  .carousel-arrow-next {
+    right: 10px;
+  }
+  

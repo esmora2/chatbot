@@ -1,0 +1,185 @@
+/* Estilos globales */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 20px;
+}
+
+h1{
+  color: #ffffff;
+}
+
+/* Contenedor principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color:  rgba(51, 104, 64, 0.986);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  z-index: 1000;
+}
+
+.header-logo {
+  max-width: 100%;
+  max-height: 75px; /* Ajusta el tamaño del logo al header */
+}
+
+/* Main content */
+.main {
+  flex: 1; /* El contenido principal ocupa todo el espacio disponible */
+  display: grid;
+  padding-top: 130px;
+  grid-template-columns: repeat(auto-fit, minmax(479px, auto));
+}
+
+/* Navigation bar */
+.nav {
+  background-color: rgba(255, 255, 255, 0.692);
+  text-align: center;
+}
+
+/* Content area */
+.content {
+  background-color: rgba(161, 158, 158, 0.404);
+  border-radius: 30px; 
+}
+
+/* Footer */
+.footer {
+  height: 20px; /* Altura fija */
+  text-align: center;
+  padding: 20px 0; /* Margen interno arriba y abajo */
+  background-color: rgba(51, 104, 64, 0.692);
+  position: relative;
+  margin-top: auto; /* Empuja el footer hacia abajo */
+  font-size: 14px;
+}
+
+/* Chat bot container */
+.bot {
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 350px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 70vh; /* Ajusta la altura máxima */
+  overflow-y: auto;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e70000; /* Rojo de fondo */
+  color: white; /* Texto blanco */
+  padding: 10px 15px; /* Reducir el padding para ajustar la altura */
+  border-radius: 8px 8px 0 0; /* Bordes redondeados superiores */
+  font-size: 18px; /* Tamaño de fuente */
+}
+
+.chat-header h2 {
+  margin: 0;
+  font-size: 20px; /* Tamaño de fuente del título */
+}
+
+.chat-header img {
+  height: 25px; /* Ajusta la altura del icono */
+  width: auto; /* Mantener la proporción del icono */
+}
+
+.chat-bubble {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  position: relative;
+  gap: 10px; /* Espacio entre icono y texto */
+}
+.chat-bubble.user {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+  text-align: right;
+  flex-direction: row-reverse; /* Coloca el icono a la izquierda */
+}
+.chat-bubble.bot {
+  background-color: #e9ecef;
+  color: black;
+  align-self: flex-start;
+  text-align: left;
+  flex-direction: row; /* Coloca el icono a la derecha */
+}
+
+/* Icon styles */
+.chat-bubble .icon {
+  width: 30px; 
+  height: 30px; 
+}
+
+/* Icon styles for user */
+.chat-bubble.user .icon {
+  width: 25px;  /* Tamaño del icono del usuario */
+  height: 25px; /* Tamaño del icono del usuario */
+  margin-right: 10px; /* Espacio entre el icono del usuario y el texto */
+}
+
+/* Icon styles for bot */
+.chat-bubble.bot .icon {
+  width: 40px;  /* Tamaño del icono del bot */
+  height: 40px; /* Tamaño del icono del bot */
+  margin-left: 10px; /* Espacio entre el icono del bot y el texto */
+}
+
+
+/* Button styles */
+.btn {
+  font-size: 20px;
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(255, 0, 34);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Simple form styles */
+.simple-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.simple-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.simple-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
